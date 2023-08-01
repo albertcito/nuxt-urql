@@ -12,8 +12,8 @@ const config: CodegenConfig = {
       plugins: [
         'typescript',
         'typescript-operations',
-        'typescript-urql',
-        // 'typescript-vue-urql',
+        //'typescript-urql',
+        'typescript-vue-urql',
       ],
     },
     'graphql/generated/graphql.schema.ts': {
